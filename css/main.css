@@ -136,15 +136,51 @@ header {
     margin: 0 auto;
 }
 .banner-box {
-    display: block;
-    text-align: left;
-    color: #FAF9F9;
     background-image: url(../images/banner.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: center center;
-    background-repeat: repeat;
     padding: 100px;
     padding-left: 100px;
+}
+.banner-title {
+    font-size: 60px;
+    font-weight: 900;
+    color: #fff;
+    line-height: 1.6;
+    margin-top: 0%;
+}
+h2 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 900;
+    font-size: 60px;
+    color: #FAF9F9;
+    line-height: 76px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.banner-title span {
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    max-width: 96px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 5px 0;
+    background-color: #F37335;
+    background-clip: padding-box;
+    border-radius: 14px;
+}
+.banner-text {
+    color: #FAF9F9;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    max-width: 353px;
+    margin-top: 0;
+    margin-bottom: 35px; 
 }
 .banner-box a {
     color: #1E2F40;
@@ -156,38 +192,48 @@ header {
     padding: 20px 10px;
     margin-bottom: 100px;
 }
-.banner-title {
-    font-size: 60px;
-    font-weight: 900;
-    color: #fff;
-    line-height: 1.6;
+.menu-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
-h2 {
-    font-family: 'Nunito Sans', sans-serif;
-    font-weight: 900;
-    font-size: 60px;
-    line-height: 76px;
-    margin-top: 0;
-    margin-bottom: 0;
-}
-.banner-title span {
-    display: block;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 18px;
-    border-radius: 14px;
+.menu-title {
+    font-size: 44px;
+    font-weight: 700;
     text-transform: uppercase;
-    padding: 5px 18px;
-    background-color: #F37335;
-    background-clip: padding-box;
+    color: #1B2A49;
+    margin: 0;
 }
-.banner-text {
-    color: #FAF9F9;
-    font-family: 'Open Sans', sans-serif;
+.menu-select {
+    border: 1px solid #dedede;
+    padding: 13px 30px;
+    border-radius: 22px;
+    color: #443737;
     font-size: 15px;
-    line-height: 24px;
-    max-width: 353px;
-    margin-top: 0;
-    margin-bottom: 35px;
+    appearance: none;
+    flex-basis: 279px;
+    background-image: url(../images/errow.svg);
+    background-size: 12.79px 7.75px;
+    background-repeat: no-repeat;
+    background-position: 89% center;
+}
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.menu-grig-cover {
+    width: 100%;
+    height: 430px;
+    position: relative;
+    overflow: hidden;
+}
+.menu-grid-cover img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    width: 100%;
+    height: 430px;
 }
