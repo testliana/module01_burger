@@ -190,13 +190,16 @@ h2 {
     margin-bottom: 35px; 
 }
 .banner-link {
+    font-weight: 700;
     font-size: 14px;
-    padding: 18px 25px;
-    text-transform: uppercase;
-    text-decoration: none;
+    line-height: 18px;
+    text-align: left;
     color: #1E2F40;
-    background-color: #FBB731;
     border-radius: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 19px 25px;
+    background: #FBB731;
     border: 1px solid #FBB731;
 }
 .banner-link:hover {
@@ -288,12 +291,11 @@ h2 {
     justify-content: center;
     margin: 0 auto;
     gap: 5px;
+    cursor: pointer;
+    position: relative;
 }
 .menu-grid-btn:hover {
-    background-color: transparent;
-    color: #F37335;
-    cursor: pointer;
-    border: #1E2F40;
+    color: #DEDEDE;
 }
 .menu-grid-icon {
     background-image: url(../images/cart.svg);
@@ -338,15 +340,18 @@ h2 {
     margin-top: 0;
     font-weight: 900;
 }
+.footer-list a {
+    color: #DEDEDE;
+}
 .footer-list {
     font-weight: 700;
     line-height: 24px;
+    color: #DEDEDE;
 }
 .footer-list li {
     margin-bottom: 9px;
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
-    color: #dedede;
     font-weight: 700;
     line-height: 24px;
 }
@@ -354,11 +359,14 @@ h2 {
     margin-bottom: 9px;
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
-    color: #FBB731;
+    color: #dedede;
     text-decoration: none;
 }
-.footer-item span {
+.footer-list a:hover {
     color: #FBB731;
+}
+.footer-item span {
+    color: #dedede;
     display: block;
     font-weight: 400;
     margin-bottom: 2px;
@@ -376,6 +384,9 @@ h2 {
     color: #FBB731;
     font-weight: 700;
     line-height: 24px;
+}
+.footer-list-tel a:hover {
+    color: #dedede;
 }
 .footer-tel ul {
     font-size: 20px;
