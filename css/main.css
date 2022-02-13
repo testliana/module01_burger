@@ -263,17 +263,15 @@ h2 {
     align-items: center;
     justify-content: center;
     margin: 0 auto;
-    grid-area: 5px;
+    gap: 5px;
 }
 .menu-grid-icon {
     background-image: url(../images/cart.svg);
-    background-repeat: cover;
+    background-repeat: no-repeat;
     display: block;
     background-size: 18px 18px;
     width: 18px;
     height: 18px;
-    background-color: #443737;
-
 }
 .menu-grid-text {
     color: #1E2F40;
