@@ -445,14 +445,14 @@ h2 {
     padding-top: 170px;
     padding-bottom: 170px;
 }
-h1 {
+.content-title {
     font-size: 120px;
     font-weight: 800;
     text-transform: uppercase;
     line-height: 120px;
     margin-bottom: 40px;
 }
-h1 span {
+.content-title span {
     color: #FBB731;
     font-size: 30px;
     font-weight: 700;
