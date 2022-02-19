@@ -562,7 +562,7 @@ h2 {
 .burger {
     width: 34px;
     height: 22px;
-    background-image: url(/images/burger.svg);
+    background-image: url(../images/menu-burger.svg);
     background-color: transparent;
     background-repeat: no-repeat;
     background-size: contain;
@@ -591,7 +591,7 @@ h2 {
 .burger-close {
     width: 22px;    
     height: 22px;
-    background-image: url(/images/close.svg);
+    background-image: url(../images/close.svg);
     background-color: transparent;
     background-size: contain;
     background-repeat: no-repeat;
@@ -688,9 +688,48 @@ h2 {
     .bg {
         padding: 55px 0;
     }
-    .banner-box{
+    .banner-box {
         background-position: 17% center;
         padding: 35px 24px 54px;
+    }
+}
+@media (max-width: 500px) {
+    .header nav {
+        display: none;
+    }
+    .button {
+        margin-right: 100x;
+    }
+    .bg  {
+        max-width: 500px;
+    }
+    .banner {
+        max-width: 500px;
+    }
+    .menu .menu-title {
+        font-size: 27px;
+        margin-bottom: 10px;
+    }
+    .menu .menu-select {
+        max-width: 136px;
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    .menu {
+        display: block;
+    }
+    .menu-grid .menu-grid-item {
+        gap: 10px 10px;
+    }
+    .menu-grid-thumb {
+        max-width: 140px;
+        gap: 10px 10px;
+    }
+    .menu-grid .menu-grid-title {
+        font-size: 13px;
+    }
+    .menu-grid .menu-grid-price {
+        font-size: 16px;
     }
 }
 @media (max-width: 368px) {
