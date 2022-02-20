@@ -571,6 +571,7 @@ h2 {
     background-size: contain;
     border: none;
     cursor: pointer;
+    display: none;
 }
 .modal {
     background-color: #fff8dc;
@@ -668,6 +669,9 @@ h2 {
     }
     .footer-list {
         display: block;
+    }
+    .burger {
+        display: flex;
     }
 }
 @media (max-width: 700px) {
