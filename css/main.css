@@ -242,7 +242,9 @@ h2 {
     border-radius: 22px;
     color: #443737;
     font-size: 15px;
-    appearance: none;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
     flex-basis: 279px;
     background-image: url(../images/errow.svg);
     background-size: 12.79px 7.75px;
@@ -257,7 +259,7 @@ h2 {
     text-align: center;
     margin-bottom: 100px;
 }
-.menu-grig-cover {
+.menu-grid-cover {
     width: 100%;
     height: 430px;
     position: relative;
@@ -268,7 +270,8 @@ h2 {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
     width: 100%;
     height: 430px;
 }
@@ -697,8 +700,8 @@ h2 {
     .header nav {
         display: none;
     }
-    .button {
-        margin-right: 100x;
+    .header {
+        max-width: 280px;
     }
     .bg  {
         max-width: 319px;
@@ -715,24 +718,31 @@ h2 {
     .banner {
         max-width: 290px;
     }
+    .menu .menu-header {
+        max-width: 400px;
+    }
     .menu .menu-title {
         font-size: 27px;
         margin-bottom: 10px;
     }
     .menu .menu-select {
-        max-width: 136px;
         font-size: 12px;
         margin-bottom: 10px;
+        flex-basis: 180px;
+        margin-right: 70px;
     }
     .menu {
         display: block;
     }
     .menu-grid .menu-grid-item {
         gap: 10px 10px;
+        max-width: 200%;
     }
     .menu-grid-cover {
-        max-width: 140px;
+        height: 56vw;
         gap: 10px 10px;
+        position: relative;
+        overflow: hidden;
     }
     .menu-grid .menu-grid-title {
         font-size: 13px;
@@ -740,7 +750,32 @@ h2 {
     .menu-grid .menu-grid-price {
         font-size: 16px;
     }
-}
+    .menu-grid-other .menu-grid-item {
+        gap: 10px 10px;
+        position: relative;
+        overflow: hidden;
+        margin: 0;
+    }
+    .footer-box {
+        display: contents;
+       flex-direction: column;
+       gap: 20px;
+       padding: 0%;
+    }
+    .footer-item {
+        margin-top: 10px;
+    }
+    .footer-item h2 {
+        font-size: 18px;
+    }
+    .footer-list {
+        font-size: 15px;
+    }
+    .footer{
+        padding-top: 0;
+    }
+    }
+
 @media (max-width: 368px) {
     .header-logo {
         width: 116px;
@@ -748,6 +783,7 @@ h2 {
         background-size: contain;
     }
 }
+
 @media (max-width: 320px) {
     .banner-box{
         background-position: 17% center;
