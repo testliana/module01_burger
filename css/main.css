@@ -297,7 +297,7 @@ h2 {
     gap: 5px;
     cursor: pointer;
     position: relative;
-    border: 1px solid #F37335;
+    border: none;
 }
 .menu-grid-btn:hover {
     background-color: #F37335;
@@ -610,7 +610,7 @@ h2 {
     }
 }
 
-@madia (max-widht: 765px) {
+@media (max-widht: 765px) {
     .header-burger {
         display: none;
     }
@@ -701,10 +701,19 @@ h2 {
         margin-right: 100x;
     }
     .bg  {
-        max-width: 500px;
+        max-width: 319px;
+    }
+    .bg .breadcrumbs {
+        font-size: 14px;
+    }
+    .bg .title {
+        font-size: 38px;
+    }
+    .bg .discription {
+        font-size: 12px;
     }
     .banner {
-        max-width: 500px;
+        max-width: 290px;
     }
     .menu .menu-title {
         font-size: 27px;
@@ -721,7 +730,7 @@ h2 {
     .menu-grid .menu-grid-item {
         gap: 10px 10px;
     }
-    .menu-grid-thumb {
+    .menu-grid-cover {
         max-width: 140px;
         gap: 10px 10px;
     }
