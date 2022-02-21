@@ -681,6 +681,9 @@ h2 {
     .header {
         gap: 22px;
     }
+    .header .header-nav {
+        display: none;
+    }
 }
 @media (max-width:567px) {
     .breadcrumbs a {
@@ -699,13 +702,31 @@ h2 {
         background-position: 17% center;
         padding: 35px 24px 54px;
     }
+    .footer-box{
+        position: relative; 
+        display: block;
+    }
+    .footer-list-tel {
+        position: absolute;
+        top: 4px;
+        right: 0;
+    }
+    .footer-item h2 {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    .footer-list {
+        font-size: 15px;
+    }
+    .footer{
+        padding: 0;
+    }
+    
 }
 @media (max-width: 500px) {
-    .header nav {
-        display: none;
-    }
     .header {
-        max-width: 280px;
+        max-width: 250px;
+        gap: 10px;
     }
     .bg  {
         max-width: 319px;
@@ -724,6 +745,7 @@ h2 {
     }
     .menu .menu-header {
         max-width: 400px;
+        margin-bottom: 15px;
     }
     .menu .menu-title {
         font-size: 27px;
@@ -740,13 +762,21 @@ h2 {
     }
     .menu-grid .menu-grid-item {
         gap: 10px 10px;
-        max-width: 200%;
+        
+    }
+    .menu-grid-item {
+        height: 280px;
+        width: 130 px;
     }
     .menu-grid-cover {
-        height: 56vw;
+        height: 160px;
         gap: 10px 10px;
-        position: relative;
-        overflow: hidden;
+        padding: 0;
+    }
+    .menu-grid-cover img {
+        width: 80%;
+        height: 180px;
+        width: 139px;
     }
     .menu-grid .menu-grid-title {
         font-size: 13px;
@@ -754,31 +784,43 @@ h2 {
     .menu-grid .menu-grid-price {
         font-size: 16px;
     }
-    .menu-grid-other .menu-grid-item {
+    .menu-other {
+        height: 358px;
+    }
+    .menu-other .menu-grid-item  {
+        height: 280px;
+        width: 130 px;
+    }
+    .menu-other .menu-grid-cover {
+        height: 160px;
         gap: 10px 10px;
-        position: relative;
-        overflow: hidden;
-        margin: 0;
+        padding: 0;
     }
-    .footer-box {
-        display: contents;
-       flex-direction: column;
-       gap: 20px;
-       padding: 0%;
+    .menu-other .menu-grid-cover img {
+        width: 80%;
+        height: 180px;
+        width: 139px;
     }
-    .footer-item {
-        margin-top: 10px;
+    .footer-box{
+        position: relative; 
+        display: block;
+    }
+    .footer-list-tel {
+        position: absolute;
+        top: 4px;
+        right: 0;
     }
     .footer-item h2 {
         font-size: 18px;
+        margin-top: 10px;
     }
     .footer-list {
         font-size: 15px;
     }
     .footer{
-        padding-top: 0;
+        padding: 0;
     }
-    }
+}
 
 @media (max-width: 368px) {
     .header-logo {
