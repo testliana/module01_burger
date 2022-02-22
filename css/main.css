@@ -684,6 +684,26 @@ h2 {
     .header .header-nav {
         display: none;
     }
+    .footer-box{
+        position: relative; 
+        display: block;
+    }
+    .footer-list-tel {
+        position: absolute;
+        top: 4px;
+        right: 0;
+    }
+    .footer-item h2 {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    .footer-list {
+        font-size: 15px;
+    }
+    .footer{
+        margin-top: 10px;
+        padding: 0;
+    }
 }
 @media (max-width:567px) {
     .breadcrumbs a {
@@ -702,6 +722,15 @@ h2 {
         background-position: 17% center;
         padding: 35px 24px 54px;
     }
+    .menu-grid .menu-grid-title {
+        margin: 0;
+    }
+    .menu-grid-cover {
+        height: 56vw;
+    }
+    .menu-grid-cover img {
+        height: 45vw;
+    }
     .footer-box{
         position: relative; 
         display: block;
@@ -719,7 +748,8 @@ h2 {
         font-size: 15px;
     }
     .footer{
-        padding: 0;
+        margin-top: 10px;
+        padding: 40px;
     }
     
 }
@@ -727,9 +757,6 @@ h2 {
     .header {
         max-width: 250px;
         gap: 10px;
-    }
-    .bg  {
-        max-width: 319px;
     }
     .bg .breadcrumbs {
         font-size: 14px;
@@ -739,9 +766,6 @@ h2 {
     }
     .bg .discription {
         font-size: 12px;
-    }
-    .banner {
-        max-width: 290px;
     }
     .menu .menu-header {
         max-width: 400px;
@@ -755,28 +779,22 @@ h2 {
         font-size: 12px;
         margin-bottom: 10px;
         flex-basis: 180px;
-        margin-right: 70px;
-    }
-    .menu {
-        display: block;
     }
     .menu-grid .menu-grid-item {
         gap: 10px 10px;
-        
     }
-    .menu-grid-item {
+    .menu-grid .menu-grid-title {
+        margin: 0;
+    }
+    .menu-grid .menu-grid-item {
         height: 280px;
-        width: 130 px;
+        margin-bottom: 35px;
     }
     .menu-grid-cover {
-        height: 160px;
-        gap: 10px 10px;
-        padding: 0;
+        height: 56vw;
     }
     .menu-grid-cover img {
-        width: 80%;
-        height: 180px;
-        width: 139px;
+        height: 45vw;
     }
     .menu-grid .menu-grid-title {
         font-size: 13px;
@@ -785,21 +803,21 @@ h2 {
         font-size: 16px;
     }
     .menu-other {
-        height: 358px;
+        height: 500px;
     }
-    .menu-other .menu-grid-item  {
-        height: 280px;
-        width: 130 px;
+    .menu.menu-other .menu-grid {
+        padding-bottom: 50px;
     }
-    .menu-other .menu-grid-cover {
-        height: 160px;
-        gap: 10px 10px;
-        padding: 0;
+    .menu.menu-other .menu-grid-item  {
+        
+        margin-bottom: 35px;
+        flex: 0 0 181px;
     }
-    .menu-other .menu-grid-cover img {
-        width: 80%;
-        height: 180px;
-        width: 139px;
+    .menu.menu-other .menu-grid-cover {
+        height: 56vw;
+    }
+    .menu.menu-other .menu-grid-cover img {
+        height: 45vw;
     }
     .footer-box{
         position: relative; 
@@ -818,7 +836,8 @@ h2 {
         font-size: 15px;
     }
     .footer{
-        padding: 0;
+        margin-top: 50px;
+        padding-top: 0;
     }
 }
 
@@ -828,11 +847,38 @@ h2 {
         height: 37px;
         background-size: contain;
     }
+    .menu-grid .menu-grid-title {
+        margin: 0;
+    }
+    .menu-grid {
+        flex: 0 0 90px;
+    } 
+    .menu-grid-item {
+        height: 280px;
+        margin-bottom: 30px;
+    }
+    .menu-grid-cover {
+        height: 56vw;
+    }
+    .menu-grid-cover img {
+        height: 45vw;
+    }
+    .menu-other .menu-grid {
+        height: 56vw;
+        margin-bottom: 35px;
+    }
+    .footer{
+        margin-top: 50px;
+        padding: 0;
+    }
 }
 
 @media (max-width: 320px) {
     .banner-box{
         background-position: 17% center;
         padding: 35px 24px 54px;
+    }
+    .menu-grid .menu-grid-title {
+        margin: 0;
     }
 }
