@@ -237,7 +237,7 @@ h2 {
     margin: 0;
 }
 .menu-select {
-    border: 1px solid #dedede;
+    border: 1px solid #FAF9F9;
     padding: 13px 30px;
     border-radius: 22px;
     color: #443737;
@@ -709,6 +709,9 @@ h2 {
     .breadcrumbs a {
         font-size: 14px;
     }
+    .button {
+        position: relative;
+    }
     .title {
         font-size: 38px;
     }
@@ -731,6 +734,10 @@ h2 {
     .menu-grid-cover img {
         height: 45vw;
     }
+    .menu-grid .menu-grid-item {
+        margin-top: 0px;
+        height: 380px;
+    }
     .footer-box{
         position: relative; 
         display: block;
@@ -749,14 +756,17 @@ h2 {
     }
     .footer{
         margin-top: 10px;
-        padding: 40px;
+        padding: 0px;
     }
     
 }
 @media (max-width: 500px) {
     .header {
-        max-width: 250px;
+        
         gap: 10px;
+    }
+    .button {
+        position: relative;
     }
     .bg .breadcrumbs {
         font-size: 14px;
@@ -788,7 +798,7 @@ h2 {
     }
     .menu-grid .menu-grid-item {
         height: 280px;
-        margin-bottom: 35px;
+        margin-bottom: 30px;
     }
     .menu-grid {
         margin-bottom: 50px;
@@ -839,8 +849,7 @@ h2 {
     }
     .footer{
         margin-top: 50px;
-        padding-top: 30px;
-        padding-bottom: 20px;
+        padding: 0;
     }
 }
 
@@ -849,6 +858,9 @@ h2 {
         width: 116px;
         height: 37px;
         background-size: contain;
+    }
+    .button {
+        position: relative;
     }
     .menu-grid .menu-grid-title {
         margin: 0;
@@ -860,7 +872,7 @@ h2 {
     } 
     .menu-grid .menu-grid-item {
         height: 250px;
-        margin-bottom: 0px;
+        margin-bottom: 15px;
     }
     .menu-grid-cover {
         height: 56vw;
