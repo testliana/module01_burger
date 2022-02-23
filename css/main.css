@@ -724,6 +724,7 @@ h2 {
     .banner-box {
         background-position: 17% center;
         padding: 35px 24px 54px;
+        margin-bottom: 0;
     }
     .menu-grid .menu-grid-title {
         margin: 0;
