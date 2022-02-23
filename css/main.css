@@ -425,10 +425,10 @@ h2 {
     background-color: #F37335;
 }
 .button-up.hidden {
-    opasity: 0;
+    opacity: 0;
 }
 .button-up.visible {
-    opasity: 1;
+    opacity: 1;
 }
  
 
@@ -790,6 +790,9 @@ h2 {
         height: 280px;
         margin-bottom: 35px;
     }
+    .menu-grid {
+        margin-bottom: 50px;
+    }
     .menu-grid-cover {
         height: 56vw;
     }
@@ -803,13 +806,12 @@ h2 {
         font-size: 16px;
     }
     .menu-other {
-        height: 500px;
+        height: 450px;
     }
     .menu.menu-other .menu-grid {
         padding-bottom: 50px;
     }
     .menu.menu-other .menu-grid-item  {
-        
         margin-bottom: 35px;
         flex: 0 0 181px;
     }
@@ -837,7 +839,8 @@ h2 {
     }
     .footer{
         margin-top: 50px;
-        padding-top: 0;
+        padding-top: 30px;
+        padding-bottom: 20px;
     }
 }
 
@@ -852,10 +855,12 @@ h2 {
     }
     .menu-grid {
         flex: 0 0 90px;
-    } 
-    .menu-grid-item {
-        height: 280px;
+        gap: 15px 15px;
         margin-bottom: 30px;
+    } 
+    .menu-grid .menu-grid-item {
+        height: 250px;
+        margin-bottom: 0px;
     }
     .menu-grid-cover {
         height: 56vw;
@@ -863,13 +868,18 @@ h2 {
     .menu-grid-cover img {
         height: 45vw;
     }
+    .menu.menu-other {
+        height: 350px;
+        margin-top: 0;
+    }
     .menu-other .menu-grid {
         height: 56vw;
         margin-bottom: 35px;
     }
     .footer{
         margin-top: 50px;
-        padding: 0;
+        padding-top: 30px;
+        padding-bottom: 20px;
     }
 }
 
