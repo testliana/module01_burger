@@ -228,6 +228,7 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-bottom: 34px;
 }
 .menu-title {
     font-size: 44px;
@@ -471,15 +472,21 @@ h2 {
 }
 .main a,
 .promo a {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: left;
     color: #1E2F40;
-    background-color: #FBB731;
     border-radius: 5px;
     text-decoration: none;
-    padding: 20px 45px;
-    display: inline-block;
     text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 700;
+    padding: 19px 25px;
+    background: #FBB731;
+}
+.main a:hover {
+    background-color: transparent;
+    border: 1px solid #fbb731;
+    color: #DEDEDE;
 }
 .visual {
     flex-grow: 1;
@@ -542,10 +549,10 @@ h2 {
     line-height: 24px;
     margin-bottom: 0;
 }
-.promo-description a:hover{
+.promo-right a:hover{
     background-color: transparent;
-    color: #F37335;
     border: 1px solid #fbb731;
+    color: #DEDEDE;
 }
 .promo-left .promo-description {
     max-width: 392px;
@@ -701,16 +708,21 @@ h2 {
         font-size: 15px;
     }
     .footer{
-        margin-top: 10px;
-        padding: 0;
+        margin-top: 65px;
+        padding-top: 60px;   
     }
 }
-@media (max-width:567px) {
+@media (max-width: 567px) {
+    .header {
+        padding-top: 19px;
+        padding-bottom: 19px;
+    }
+    .header-logo {
+        width: 116px;
+        height: 37px;
+    }
     .breadcrumbs a {
         font-size: 14px;
-    }
-    .button {
-     
     }
     .title {
         font-size: 38px;
@@ -720,113 +732,66 @@ h2 {
     }
     .bg {
         padding: 55px 0;
+        margin-bottom: 33px;
     }
     .banner-box {
         background-position: 17% center;
-        padding: 35px 24px 54px;
-        margin-bottom: 0;
+        padding: 35px 24px;
+        margin-bottom: 40px;
     }
-    .menu-grid .menu-grid-title {
-        margin: 0;
-    }
-    .menu-grid-cover {
-        height: 56vw;
-    }
-    .menu-grid-cover img {
-        height: 45vw;
-    }
-    .menu-grid .menu-grid-item {
-        margin-top: 0px;
-    }
-    .footer-box{
-        position: relative; 
-        display: block;
-    }
-    .footer-list-tel {
-        position: absolute;
-        top: 4px;
-        right: 0;
-    }
-    .footer-item h2 {
-        font-size: 18px;
-        margin-top: 10px;
-    }
-    .footer-list {
-        font-size: 15px;
-    }
-    .footer{
-        margin-top: 10px;
-        padding: 0px;
-    }
-    
-}
-@media (max-width: 500px) {
-    .header {
-        gap: 10px;
-    }
-    .bg .breadcrumbs {
-        font-size: 14px;
-    }
-    .bg .title {
-        font-size: 38px;
-    }
-    .bg .discription {
-        font-size: 12px;
-    }
-    .menu .menu-header {
-        max-width: 400px;
-        margin-bottom: 15px;
-    }
-    .menu .menu-title {
+    .menu-title {
         font-size: 27px;
-        margin-bottom: 10px;
     }
-    .menu .menu-select {
+    .menu-select {
         font-size: 12px;
-        margin-bottom: 10px;
-        flex-basis: 180px;
+        flex-basis: 136px;
+        padding: 13px 24px 13px 15px;
+        background-position: 90% center;
     }
-    .menu-grid .menu-grid-item {
-        gap: 10px 10px;
-    }
-    .menu-grid .menu-grid-title {
-        margin: 0;
-    }
-    .menu-grid .menu-grid-item {
-        height: 280px;
+    .menu-header {
         margin-bottom: 30px;
     }
     .menu-grid {
-        margin-bottom: 50px;
+        gap: 25px 15px;
+        margin-bottom: 40px;
     }
     .menu-grid-cover {
         height: 56vw;
+        margin-bottom: 10px;
     }
     .menu-grid-cover img {
-        height: 45vw;
-    }
-    .menu-grid .menu-grid-title {
-        font-size: 13px;
-    }
-    .menu-grid .menu-grid-price {
-        font-size: 16px;
-    }
-    .menu-other {
-        height: 450px;
-    }
-    .menu.menu-other .menu-grid {
-        padding-bottom: 50px;
-    }
-    .menu.menu-other .menu-grid-item  {
-        margin-bottom: 35px;
-        flex: 0 0 181px;
-        margin-right: 25px;
-    }
-    .menu.menu-other .menu-grid-cover {
         height: 56vw;
     }
-    .menu.menu-other .menu-grid-cover img {
-        height: 45vw;
+    .menu-grid-title {
+        font-size: 15px;
+    }
+    .menu-grid-price {
+        font-size: 16px;
+        margin-top: 6px;
+        margin-bottom: 14px;
+    }
+    .menu-grid-btn {
+        padding: 10px 21px;
+    }
+    .menu-other {
+        height: 108vw;
+    }
+    .menu-other .menu-grid {
+        padding-bottom: 24vw;
+    }
+    .menu-other .menu-grid-cover {
+        height: 56vw;
+    }
+    .menu-other .menu-grid-cover img {
+        height: 100%;
+    }
+    .menu-other .menu-grid-item {
+        flex: 0 0 38vw;
+    }
+    .footer {
+        margin-top: 28px;
+        padding-top: 60px;
+        padding-bottom: 60px;
     }
     .footer-box{
         position: relative; 
@@ -844,11 +809,8 @@ h2 {
     .footer-list {
         font-size: 15px;
     }
-    .footer{
-        margin-top: 50px;
-        padding: 0;
-    }
 }
+
 
 @media (max-width: 368px) {
     .header-logo {
@@ -856,20 +818,20 @@ h2 {
         height: 37px;
         background-size: contain;
     }
-    .button {
-      
+    .menu-header {
+        margin-top: 32px;
     }
     .menu-grid .menu-grid-title {
         margin: 0;
     }
     .menu-grid {
         flex: 0 0 90px;
-        gap: 15px 15px;
         margin-bottom: 30px;
     } 
     .menu-grid .menu-grid-item {
         height: 250px;
         margin-bottom: 15px;
+        flex: 0 0 42vw;
     }
     .menu-grid-cover {
         height: 56vw;
@@ -878,17 +840,13 @@ h2 {
         height: 45vw;
     }
     .menu.menu-other {
-        height: 350px;
-        margin-top: 0;
+        height: 431px;
     }
     .menu-other .menu-grid {
-        height: 56vw;
         margin-bottom: 35px;
     }
-    .footer{
-        margin-top: 50px;
-        padding-top: 30px;
-        padding-bottom: 20px;
+    .menu.menu-other .menu-grid-item {
+        flex: 0 0 42vw;
     }
 }
 
