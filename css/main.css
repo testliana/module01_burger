@@ -201,7 +201,7 @@ h2 {
     padding: 19px 20px;
     background: #FBB731;
     border: 1px solid #FBB735;
-    transition: 0.3px;
+    transition: 0.3s;
 }
 .banner-link:hover {
     background-color: transparent;
@@ -626,7 +626,6 @@ h2 {
         display: none;
     }
 }
-
 @media (max-width: 1000px) {
     .container {
         max-width: 738px;
@@ -677,6 +676,11 @@ h2 {
     .footer-list {
         display: block;
     }
+}
+@media (max-width: 800px) {
+    .header .header-nav {
+        display: none;
+    }
     .burger {
         display: flex;
     }
@@ -688,8 +692,11 @@ h2 {
     .header {
         gap: 22px;
     }
-    .header .header-nav {
-        display: none;
+    .banner-box {
+        margin-bottom: 5px;
+    }
+    .menu-grid {
+        margin-bottom: 10px;
     }
     .footer-box{
         position: relative; 
@@ -737,7 +744,7 @@ h2 {
     .banner-box {
         background-position: 17% center;
         padding: 35px 24px;
-        margin-bottom: 40px;
+        margin-bottom: 3px;
     }
     .menu-title {
         font-size: 27px;
@@ -747,14 +754,13 @@ h2 {
         flex-basis: 136px;
         padding: 13px 24px 13px 15px;
         background-position: 90% center;
+        outline: none;
     }
     .menu-grid {
         gap: 25px 15px;
-        margin-bottom: 40px;
     }
     .menu-grid-cover {
         height: 56vw;
-        margin-bottom: 10px;
     }
     .menu-grid-cover img {
         height: 56vw;
@@ -775,6 +781,7 @@ h2 {
     }
     .menu-other .menu-grid {
         padding-bottom: 24vw;
+        margin-right: -15px;
     }
     .menu-other .menu-grid-cover {
         height: 56vw;
@@ -784,6 +791,7 @@ h2 {
     }
     .menu-other .menu-grid-item {
         flex: 0 0 38vw;
+        padding-right: 15px;
     }
     .footer {
         margin-top: 28px;
@@ -830,11 +838,8 @@ h2 {
         margin-bottom: 15px;
         flex: 0 0 42vw;
     }
-    .menu-grid-cover {
+    .menu-grid-cover, .menu-grid-cover img {
         height: 56vw;
-    }
-    .menu-grid-cover img {
-        height: 45vw;
     }
     .menu.menu-other {
         height: 431px;
