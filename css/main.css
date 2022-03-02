@@ -333,7 +333,6 @@ h2 {
 .footer-logo {
     width: 63px;
     height: 56px;
-    margin-top: 20px;
 }
 .footer-item {
     flex: 0 0 auto;
@@ -403,6 +402,7 @@ h2 {
 .footer-tel ul {
     font-size: 20px;
     color: #fff;
+    margin-top: -20px;
 }
 .footer-list {
     padding-left: 0;
@@ -706,10 +706,11 @@ h2 {
         position: absolute;
         top: 4px;
         right: 0;
+        margin-top: -15px;
     }
     .footer-item h2 {
         font-size: 18px;
-        margin-top: 10px;
+        margin-top: 25px;
     }
     .footer-list {
         font-size: 15px;
@@ -800,10 +801,6 @@ h2 {
     .footer-box{
         position: relative; 
         display: block;
-    }
-    .footer-item h2 {
-        font-size: 18px;
-        margin-top: 10px;
     }
 }
 
