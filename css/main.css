@@ -23,6 +23,7 @@ header {
     align-items: center;
     justify-content: space-between;
     flex-basis: 68.5%;
+    margin-left: 10px;
 }
 .header-logo {
   display: block;
