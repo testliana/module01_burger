@@ -402,7 +402,7 @@ h2 {
 .footer-tel ul {
     font-size: 20px;
     color: #fff;
-    margin-top: -20px;
+    margin-top: -15px;
 }
 .footer-list {
     padding-left: 0;
@@ -567,95 +567,6 @@ h2 {
     margin-bottom: 10px;
     margin-top: 0;
 }
-.footer {
-    background: #1E2F40;
-    color: #fff;
-    padding-top: 117px;
-    padding-bottom: 106px;
-    margin-top: 140px;
-}
-.footer-box {
-    display: flex;
-    justify-content: space-between;
-}
-.footer-logo {
-    width: 63px;
-    height: 56px;
-}
-.footer-item {
-    flex: 0 0 auto;
-}
-.footer-item h2 {
-    font-size: 20px;
-    font-weight: 800;
-    text-transform: uppercase;
-    margin-bottom: 18px;
-    margin-top: 0;
-}
-.footer-item {
-    color: #FAF9F9;
-    margin-top: 0;
-    font-weight: 900;
-    padding-bottom: 12px;
-}
-.footer-list a {
-    color: #DEDEDE;
-}
-.footer-list {
-    font-weight: 700;
-    line-height: 24px;
-    color: #DEDEDE;
-    padding: 5px;
-}
-.footer-list li {
-    margin-bottom: 10px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 15px;
-    font-weight: 700;
-    line-height: 24px;
-}
-.footer-list a {
-    margin-bottom: 9px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 15px;
-    color: #dedede;
-    text-decoration: none;
-}
-.footer-list a:hover {
-    color: #FBB731;
-}
-.footer-item span {
-    color: #dedede;
-    display: block;
-    font-weight: 400;
-    margin-bottom: 2px;
-}
-.footer-list-tel {
-    margin-top: 10px;
-}
-.footer-list-tel li {
-    margin-bottom: 12px;
-}
-.footer-list-tel a {
-    text-decoration: none;
-    font-weight: 400;
-    font-size: 20px;
-    color: #FBB731;
-    font-weight: 700;
-    line-height: 24px;
-}
-.footer-list-tel a:hover {
-    color: #dedede;
-}
-.footer-tel ul {
-    font-size: 20px;
-    color: #fff;
-    margin-top: -20px;
-}
-.footer-list {
-    padding-left: 0;
-    list-style-type: none;
-}
 
 /* Modal */
 .burger {
@@ -778,8 +689,8 @@ h2 {
     .nav {
         display: none;
     }
-    .header {
-        gap: 22px;
+    .menu-grid-title {
+        font-size: 25px;
     }
     .banner-box {
         margin-bottom: 5px;
@@ -795,7 +706,7 @@ h2 {
         position: absolute;
         top: 4px;
         right: 0;
-        margin-top: -15px;
+        margin-top: -10px;
     }
     .footer-item h2 {
         font-size: 18px;
@@ -871,7 +782,7 @@ h2 {
     }
     .menu-other .menu-grid {
         padding-bottom: 24vw;
-        margin-right: -15px;
+        margin-right: -8px;
     }
     .menu-other .menu-grid-cover {
         height: 56vw;
@@ -880,7 +791,7 @@ h2 {
         height: 100%;
     }
     .menu-other .menu-grid-item {
-        flex: 0 0 38vw;
+        flex: 0 0 45vw;
     }
     .footer {
         margin-top: 28px;
@@ -915,7 +826,6 @@ h2 {
     }
     .menu-other .menu-grid {
         margin-bottom: 35px;
-        margin-right: -15px;
     }
     .menu.menu-other .menu-grid-item {
         flex: 0 0 42vw;
