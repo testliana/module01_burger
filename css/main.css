@@ -23,7 +23,6 @@ header {
     align-items: center;
     justify-content: space-between;
     flex-basis: 68.5%;
-    margin-left: 10px;
 }
 .header-logo {
   display: block;
@@ -47,6 +46,7 @@ header {
 }
 .header-nav a:hover {
     color: #FFC725;
+    transition: 0.3s;
 }
 .header-nav a::after{
     content: '';
@@ -115,6 +115,7 @@ header {
 }
 .breadcrumbs a:hover {
     color: #FFC725;
+    transition: 0.3s;
 }
 .breadcrumbs a::before {
     content: '/';
@@ -207,6 +208,7 @@ h2 {
 .banner-link:hover {
     background-color: transparent;
     color: #fbb735;
+    transition: 0.3s;
 }
 .menu {
     padding-top: 20px;
@@ -224,6 +226,7 @@ h2 {
 .banner-box:hover{
     background-color: transparent;
     color: #F37335;
+    transition: 0.3s;
 }
 .menu-header {
     display: flex;
@@ -239,7 +242,7 @@ h2 {
     margin: 0;
 }
 .menu-select {
-    border: 1px solid #FAF9F9;
+    border: 1px solid #FFFFFF;
     padding: 13px 30px;
     border-radius: 22px;
     color: #443737;
@@ -252,7 +255,7 @@ h2 {
     background-size: 12.79px 7.75px;
     background-repeat: no-repeat;
     background-position: 89% center;
-    background-color: #DEDEDE;
+    background-color: #FFFFFF;
 }
 .menu-grid {
     display: grid;
@@ -307,6 +310,7 @@ h2 {
 }
 .menu-grid-btn:hover {
     background-color: #F37335;
+    transition: 0.3s;
 }
 .menu-grid-icon {
     background-image: url(../images/cart.svg);
@@ -365,7 +369,7 @@ h2 {
     margin-bottom: 10px;
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
-    font-weight: 700;
+    font-weight: 400;
     line-height: 24px;
 }
 .footer-list a {
@@ -374,9 +378,6 @@ h2 {
     font-size: 15px;
     color: #dedede;
     text-decoration: none;
-}
-.footer-list a:hover {
-    color: #FBB731;
 }
 .footer-item span {
     color: #dedede;
@@ -400,6 +401,7 @@ h2 {
 }
 .footer-list-tel a:hover {
     color: #dedede;
+    transition: 0.3s;
 }
 .footer-tel ul {
     font-size: 20px;
@@ -426,6 +428,7 @@ h2 {
 }
 .button-up:hover {
     background-color: #F37335;
+    transition: 0.3s;
 }
 .button-up.hidden {
     opacity: 0;
@@ -482,13 +485,14 @@ h2 {
     border-radius: 5px;
     text-decoration: none;
     text-transform: uppercase;
-    padding: 19px 25px;
+    padding: 19px 47px;
     background: #FBB731;
 }
 .main a:hover {
     background-color: transparent;
     border: 1px solid #fbb731;
     color: #DEDEDE;
+    transition: 0.3s;
 }
 .visual {
     flex-grow: 1;
@@ -555,13 +559,14 @@ h2 {
     background-color: transparent;
     border: 1px solid #fbb731;
     color: #DEDEDE;
+    transition: 0.3s;
 }
 .promo-left .promo-description {
     max-width: 392px;
 }
 .promo-right .promo-description {
     max-width: 300px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 .free {
     font-size: 44px;
@@ -621,16 +626,17 @@ h2 {
     .footer-list + .footer-list-tel {
         display: none;
     }
-}
-
-@media (max-widht: 765px) {
     .header-burger {
         display: none;
     }
 }
+
 @media (max-width: 1000px) {
     .container {
         max-width: 738px;
+    }
+    .header-burger {
+        display: none;
     }
     .header-logo {
         width: 158px;
@@ -684,6 +690,10 @@ h2 {
         display: none;
     }
     .burger {
+        display: flex;
+        margin-right: 10px;
+    }
+    .header-burger {
         display: flex;
     }
 }
