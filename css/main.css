@@ -112,10 +112,10 @@ header {
     font-size: 15px;
     font-family: 'Open Sans', sans-serif;
     text-decoration: none;
+    transition: 0.3s;
 }
 .breadcrumbs a:hover {
     color: #FFC725;
-    transition: 0.3s;
 }
 .breadcrumbs a::before {
     content: '/';
@@ -208,7 +208,6 @@ h2 {
 .banner-link:hover {
     background-color: transparent;
     color: #fbb735;
-    transition: 0.3s;
 }
 .menu {
     padding-top: 20px;
@@ -222,11 +221,11 @@ h2 {
     text-decoration: none;
     padding: 19px 25px;
     margin-bottom: 100px;
+    transition: 0.3s;
 }
 .banner-box:hover{
     background-color: transparent;
     color: #F37335;
-    transition: 0.3s;
 }
 .menu-header {
     display: flex;
@@ -242,7 +241,7 @@ h2 {
     margin: 0;
 }
 .menu-select {
-    border: 1px solid #FFFFFF;
+    border: 1px solid #DEDEDE;
     padding: 13px 30px;
     border-radius: 22px;
     color: #443737;
@@ -307,10 +306,10 @@ h2 {
     cursor: pointer;
     position: relative;
     border: none;
+    transition: 0.3s;
 }
 .menu-grid-btn:hover {
     background-color: #F37335;
-    transition: 0.3s;
 }
 .menu-grid-icon {
     background-image: url(../images/cart.svg);
@@ -378,6 +377,10 @@ h2 {
     font-size: 15px;
     color: #dedede;
     text-decoration: none;
+    transition: 0.3s;
+}
+.footer-list a:hover {
+    color:#FBB731;
 }
 .footer-item span {
     color: #dedede;
@@ -398,10 +401,10 @@ h2 {
     color: #FBB731;
     font-weight: 700;
     line-height: 24px;
+    transition: 0.3s;
 }
 .footer-list-tel a:hover {
     color: #dedede;
-    transition: 0.3s;
 }
 .footer-tel ul {
     font-size: 20px;
@@ -424,11 +427,10 @@ h2 {
     bottom: 20px;
     right: 20px;
     border-radius: 5px;
-    transition: 0.2s; 
+    transition: 0.3s; 
 }
 .button-up:hover {
     background-color: #F37335;
-    transition: 0.3s;
 }
 .button-up.hidden {
     opacity: 0;
@@ -487,12 +489,12 @@ h2 {
     text-transform: uppercase;
     padding: 19px 47px;
     background: #FBB731;
+    transition: 0.3s;
 }
 .main a:hover {
     background-color: transparent;
     border: 1px solid #fbb731;
     color: #DEDEDE;
-    transition: 0.3s;
 }
 .visual {
     flex-grow: 1;
@@ -522,6 +524,7 @@ h2 {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    transition: 0.3s;
 }
 .promo-left {
     background-image: url(../images/promo-left.png);
@@ -559,7 +562,6 @@ h2 {
     background-color: transparent;
     border: 1px solid #fbb731;
     color: #DEDEDE;
-    transition: 0.3s;
 }
 .promo-left .promo-description {
     max-width: 392px;
