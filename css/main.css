@@ -796,7 +796,7 @@ h2 {
     }
     .menu-other .menu-grid {
         padding-bottom: 24vw;
-        margin-right: -8px;
+        padding-right: -8px;
     }
     .menu-other .menu-grid-cover {
         height: 56vw;
@@ -806,6 +806,7 @@ h2 {
     }
     .menu-other .menu-grid-item {
         flex: 0 0 45vw;
+        padding-right: 5px;
     }
     .footer {
         margin-top: 28px;
@@ -840,10 +841,10 @@ h2 {
     }
     .menu-other .menu-grid {
         margin-bottom: 35px;
+        gap: 7px;
     }
     .menu.menu-other .menu-grid-item {
         flex: 0 0 42vw;
-        margin-right: 3px;
     }
 }
 
