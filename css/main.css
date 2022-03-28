@@ -832,9 +832,11 @@ h2 {
     .menu-grid .menu-grid-item {
         margin-bottom: 15px;
         flex: 0 0 42vw;
+        margin-right: -15px;
     }
     .menu-grid-cover, .menu-grid-cover img {
         height: 56vw;
+        margin-right: 15px;
     }
     .menu.menu-other {
         height: 431px;
