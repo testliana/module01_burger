@@ -43,10 +43,10 @@ header {
     font-size: 20px;
     color:  #443737;
     text-decoration: none;
+    transition: 0.3s;
 }
 .header-nav a:hover {
     color: #FFC725;
-    transition: 0.3s;
 }
 .header-nav a::after{
     content: '';
@@ -490,10 +490,10 @@ h2 {
     padding: 19px 47px;
     background: #FBB731;
     transition: 0.3s;
+    border: 1px solid #FBB731;
 }
 .main a:hover {
     background-color: transparent;
-    border: 1px solid #FBB731;
     color: #DEDEDE;
 }
 .visual {
@@ -796,7 +796,6 @@ h2 {
     }
     .menu-other .menu-grid {
         padding-bottom: 24vw;
-        padding-right: -8px;
     }
     .menu-other .menu-grid-cover {
         height: 56vw;
@@ -832,7 +831,6 @@ h2 {
     .menu-grid .menu-grid-item {
         margin-bottom: 15px;
         flex: 0 0 42vw;
-        margin-right: -15px;
     }
     .menu-grid-cover, .menu-grid-cover img {
         height: 56vw;
