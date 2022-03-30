@@ -672,6 +672,7 @@ h2 {
         overflow-x: scroll;
         overflow-y: hidden;
         padding-bottom: 50px;
+        margin-right: -15px;
     }
     .menu-other .menu-grid-item {
         flex: 0 0 281px;
@@ -708,6 +709,9 @@ h2 {
     }
     .banner-box {
         margin-bottom: 5px;
+    }
+    .menu-other .menu-grid-cover img {
+    margin-right: -15px;
     }
     .menu-grid {
         margin-bottom: 10px;
